@@ -1,6 +1,6 @@
 ---
 title: "Patents"
-date: 2020-10-20T18:55:12+03:30
+date: 2021-12-13
 headless: true
 weight: 4
 content_type: "patents"
@@ -8,7 +8,7 @@ content_type: "patents"
 section_settings:
     show_section: true
     title: ''
-    # subtitle: 'Custom Subtitle: see my github for the complete list'
+    subtitle: 'I worked on the majority of these patents while I was Chief Architect at DeepScale which was acquired by Tesla in 2019'
 ---
 
 home/patents.md
