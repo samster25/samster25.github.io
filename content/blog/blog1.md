@@ -5,6 +5,7 @@ date: "2018-05-18"
 
 tags: ["ml", "economy", "machine-learning", "ai"]
 
+draft: true
 
 links:
     website: 'https://github.com/hadisinaee/avicenna'

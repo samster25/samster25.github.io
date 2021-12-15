@@ -22,21 +22,8 @@
     {{range $academia := $aboutPage.Params.academia}}
     <div class="row">
         <div class="course col">
-            <div class="institution_dates row">
-                <div class="institution col" id="institution_title">
-                    {{$academia.course.institution}}
-                </div>
-                <div class="main_color dates col-md-auto  justify-content-end">
-                    {{$academia.course.start_date}}
-                    {{ if $academia.course.end_date }}
-                    - {{$academia.course.end_date}}
-                    {{else}}
-                    - present
-                    {{end}}
-                </div>
-            </div>
             <div class="degree_major row">
-                <div class="text-muted col">
+                <div class="col">
                     {{$academia.course.degree}} {{$academia.course.major}}
 
                     {{if $academia.course.minor }}
@@ -45,10 +32,26 @@
                 </div>
             </div>
 
+            <div class="institution_dates row">
+                <div class="text-muted institution col" id="institution_title">
+                    {{$academia.course.institution}}
+                </div>
+                {{if $academia.course.start_date }}
+                    <div class="main_color dates col-md-auto  justify-content-end">
+                        {{$academia.course.start_date}}
+                        {{ if $academia.course.end_date }}
+                        - {{$academia.course.end_date}}
+                        {{else}}
+                        - present
+                        {{end}}
+                    </div>
+                {{ end }}
+            </div>
+
             {{if $academia.course.other_info}}
             <div class="other_info row text-muted">
                 <div class="col">
-                    {{$academia.course.other_info}}
+                    {{markdownify $academia.course.other_info}}
                 </div>
             </div>
             {{end}}

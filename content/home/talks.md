@@ -7,8 +7,8 @@ content_type: "talks"
 
 section_settings:
     show_section: true
-    title: 'Selected Talks'
-    subtitle: 'Public Talks that I have given'
+    title: 'Talks'
+    subtitle: 'Selected Talks that I have given'
 ---
 
 home/talks.md

@@ -7,7 +7,7 @@ weight: 3
 content_type: 'publications'
 section_settings:
     show_section: true
-    title: 'Seleted Publications'
+    title: 'Selected Publications'
     subtitle: 'See my google scholar for the full list'    
 ---
 
