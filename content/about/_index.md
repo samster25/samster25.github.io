@@ -34,7 +34,7 @@ academia:
         institution: 'University of California, Berkeley'
         major: 'Graduate Student Researcher'
         other_info: "
-        * Performed High Performance Computing (HPC) research under Kurt Keutzer in the [ASPIRE](https://aspire.eecs.berkeley.edu/about/) Lab. \n 
+        * Performed research on the intersection of Deep Learning and High Performance Computing (HPC) under Kurt Keutzer in the [ASPIRE](https://aspire.eecs.berkeley.edu/about/) Lab. \n 
         * Performed research under Stuart Russell ([BAIR Lab](https://bair.berkeley.edu/)) on Markov Chains for Medical AI in collaboration with UCSF.
         "
 
@@ -58,11 +58,3 @@ academia:
         major: 'Electrical Engineering and Computer Sciences (EECS) '
         other_info: 'Focused in Machine Learning and Distributed Systems. Spent the majority of the 3rd and 4th year either teaching or in the research lab.'
 ---
-
-**Donec** sollicitudin, [ante][1] pulvinar tincidunt luctus, dolor mauris lobortis ex, id tincidunt metus risus nec ex. Curabitur magna mauris, facilisis vitae porttitor vitae, tincidunt sed mi. In at dui lectus. Integer ante arcu, vestibulum fermentum ante eu, maximus maximus quam. Curabitur placerat cursus posuere. Phasellus dui lorem, varius a augue non, eleifend accumsan mauris. Aenean varius posuere feugiat. In hac habitasse platea dictumst. Aenean quis ex quis nisl consequat fermentum in vitae nunc. Proin consectetur ac nulla in tempus. Maecenas enim nisi, pulvinar sit amet fermentum eget, ultrices vitae enim. Etiam vel sollicitudin felis.
-
-
-Donec sollicitudin, ante pulvinar tincidunt luctus, dolor mauris lobortis ex, id tincidunt metus risus nec ex. Curabitur magna mauris, facilisis vitae porttitor vitae, 
-
-
-[1]: ahadsfsa.com
