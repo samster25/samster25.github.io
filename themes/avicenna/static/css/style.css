@@ -113,6 +113,14 @@ h2 code {
     font-size: small;
 }
 
+.about .industry .institution {
+    font-size: small;
+}
+
+.about .industry .other_info {
+    font-size: small;
+}
+
 .course {
     margin-top: 1%;
 }

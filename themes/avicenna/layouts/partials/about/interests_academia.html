@@ -2,17 +2,37 @@
 
 {{ $aboutPage := .Site.GetPage $content_type }}
 
-{{ if or $aboutPage.Params.academia $aboutPage.Params.interests}}
-{{ if $aboutPage.Params.interests }}
-<div class="interests col ">
-    <h4 class="main_color">Interests</h4>
-    <ul>
-        {{range $aboutPage.Params.interests }}
-        <li>
-            {{.}}
-        </li>
-        {{end}}
-    </ul>
+{{ if or $aboutPage.Params.academia $aboutPage.Params.industry}}
+
+
+{{ if $aboutPage.Params.industry }}
+<div class="industry col">
+    <h4 class="main_color">Industry</h4>
+    {{range $industry := $aboutPage.Params.industry}}
+    <div class="row">
+        <div class="course col">
+            <div class="title row">
+                <div class="col">
+                    {{$industry.job.title}}
+                </div>
+            </div>
+
+            <div class="institution_dates row">
+                <div class="text-muted institution col" id="institution_title">
+                    {{$industry.job.institution}}
+                </div>
+            </div>
+
+            {{if $industry.job.other_info}}
+            <div class="other_info row text-muted">
+                <div class="col">
+                    {{markdownify $industry.job.other_info}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
 </div>
 {{end}}
 

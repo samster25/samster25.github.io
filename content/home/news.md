@@ -8,7 +8,7 @@ content_type: "news"
 section_settings:
     show_section: true
     title: ''
-    subtitle: 'News articles that I or my work have been featured in'
+    subtitle: 'News articles that my work has been featured in'
 ---
 
 home/news.md
