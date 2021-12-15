@@ -4,7 +4,7 @@ baseURL = "https://sammysidhu.com"
 googleAnalytics = "G-0SBSNCJTQ2"
 
 languageCode = "en-us"
-
+enableRobotsTXT = true
 # for using avicenna you need to set the themes to 'avicenna'
 enableEmoji = true
 theme = "avicenna"
