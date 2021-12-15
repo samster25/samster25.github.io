@@ -13,6 +13,11 @@
                     {{$page.Params.title}}
                 </span>
             </div>
+            
+            {{ $subtitle := $page.Params.subtitle }}
+            {{ if $subtitle }}
+            <span class="row w-100 section-subtitle  text-muted"> {{ $subtitle }} </span>
+            {{end}}
 
             {{ $links := $page.Params.links }}
             {{ if $links }}

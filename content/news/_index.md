@@ -66,4 +66,14 @@ news_items:
   extra_text: "VC News Daily, 2018."
   icon: "file-text"
   date: 2018-04-03
+- text: "Lyft sells self-driving unit to Toyota’s Woven Planet for $550M"
+  link: https://techcrunch.com/2021/04/26/lyft-sells-self-driving-unit-to-toyotas-woven-planet-for-550m/
+  extra_text: "TechCrunch, 2021."
+  icon: "file-text"
+  date: 2021-04-26
+- text: "Toyota’s Woven Planet acquires Lyft’s Level 5 self-driving division"
+  link: https://electrek.co/2021/07/20/toyotas-woven-planet-acquires-lyfts-level-5-self-driving-division/
+  extra_text: "Electrek, 2021."
+  icon: "file-text"
+  date: 2021-07-20
 ---
