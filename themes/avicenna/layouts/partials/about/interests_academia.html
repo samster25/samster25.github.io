@@ -6,7 +6,8 @@
 
 
 {{ if $aboutPage.Params.industry }}
-<div class="industry col">
+<div class="industry">
+    <div class="col w-100">
     <h4 class="main_color">Industry</h4>
     {{range $industry := $aboutPage.Params.industry}}
     <div class="row">
@@ -33,11 +34,15 @@
         </div>
     </div>
     {{end}}
+    </div>
 </div>
 {{end}}
 
+
+
 {{if $aboutPage.Params.academia}}
-<div class="academia col">
+<div class="academia">
+    <div class="col w-100">
     <h4 class="main_color">Academia</h4>
     {{range $academia := $aboutPage.Params.academia}}
     <div class="row">
@@ -78,6 +83,7 @@
         </div>
     </div>
     {{end}}
+</div>
 </div>
 {{end}}
 {{end}}
