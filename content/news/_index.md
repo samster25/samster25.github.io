@@ -8,7 +8,7 @@ headless: true
 show_news_icons: true
 default_news_icon: "file-text"
 
-num_news: 15
+num_news: 20
 
 news_items:
 - text: "Tesla’s acquisition of DeepScale starts to pay off with new IP in machine learning"
@@ -76,4 +76,20 @@ news_items:
   extra_text: "Electrek, 2021."
   icon: "file-text"
   date: 2021-07-20
+- text: "8 open source companies from YC Demo Day Winter ’22"
+  link: https://techcrunch.com/2022/03/30/ycombinator-open-source-startups-winter-22-demo-day/
+  extra_text: "TechCrunch, 2022."
+  icon: "file-text"
+  date: 2022-04-28
+- text: "Selected AI startups from YC’s Winter ’22 batch"
+  link: https://techcrunch.com/2022/03/30/selected-ai-startups-from-ycs-winter-22-batch/
+  extra_text: "TechCrunch, 2022."
+  icon: "file-text"
+  date: 2022-04-28
+- text: "The evolution of machine learning infrastructure"
+  link: https://www.bvp.com/atlas/the-evolution-of-machine-learning-infrastructure
+  extra_text: "Bessemer Venture Partners, 2022."
+  icon: "file-text"
+  date: 2022-06-21
+
 ---
